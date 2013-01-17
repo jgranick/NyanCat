@@ -15,7 +15,7 @@ class NyanCat extends Sprite {
 		
 		super ();
 		
-		var cat = new NyanCatAnimation ();
+		var cat = Assets.getMovieClip ("library:NyanCatAnimation");
 		addChild (cat);
 		
 		var theme = Assets.getSound ("assets/Nyan Cat Theme.mp3");
